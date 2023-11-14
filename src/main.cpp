@@ -37,10 +37,10 @@ void opcontrol() {
 		int right2Control = master.get_analog(ANALOG_LEFT_Y)-master.get_analog(ANALOG_LEFT_X);
 
 
-		//left1.move(left1Control);
-		//left2.move(left2Control);
+		left1.move(left1Control);
+		left2.move(left2Control);
 
-		//right1.move(right1Control);
-		//right2.move(right2Control);
+		right1.move(right1Control);
+		right2.move(right2Control);
 	}
 }

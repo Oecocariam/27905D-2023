@@ -31,7 +31,7 @@ void opcontrol() {
 
 
 		int left1Control = master.get_analog(ANALOG_LEFT_Y)+master.get_analog(ANALOG_LEFT_X);
-		int left2Control = master.get_analog(ANALOG_LEFT_Y)+master.get_analog(ANALOG_LEFT_X);
+		int left2Control = master.get_analog(ANALOG_LEFT_Y)-master.get_analog(ANALOG_LEFT_X);
 
 		int right1Control = master.get_analog(ANALOG_LEFT_Y)-master.get_analog(ANALOG_LEFT_X);
 		int right2Control = master.get_analog(ANALOG_LEFT_Y)-master.get_analog(ANALOG_LEFT_X);
